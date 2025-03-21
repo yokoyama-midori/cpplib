@@ -1,5 +1,5 @@
 # プリコンパイル
-CXX = g++ -std=c++20 -g -fsanitize=undefined,address -I//home/y_midori/cp/library -DLOCAL
+CXX = g++ -std=c++20 -g -fsanitize=undefined,address
 
 all: template.hpp.gch
 
